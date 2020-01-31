@@ -1,0 +1,13 @@
+!.gitignore
+!/*.sln
+*/Debug
+*/Release
+*/x64
+*.obj
+*.res
+*.pdb
+*.tlog
+*.log
+*.pch
+*.bak
+*/*.tlog
