@@ -34,8 +34,6 @@ Examples
 ---
 Randomize the tool's window, search **visible-only** windows associated with the PIDs: **1390, 101 and 203** and replace them with **123**
 
----
-
 `window_title_spoofer -p 1390;101;203 -s "123" -v -x`
 
 Search all windows containing the strings **IDA, HxD or x64** and replace their window title to **spoof**
