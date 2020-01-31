@@ -8,16 +8,19 @@ Mandatory Switches:
 
 **You must specify either '-t' or '-p' followed by a string of semicolon separated strings.**
 
+search for windows associated with a list of PIDs:
+
 -p "list of semicolon seperated PIDs"
-search for windows associated with a list of PIDs
+
+search for windows that have a title including the list of strings:
 
 -t "list of semicolon separated strings"
-search for windows that have a title including the list of strings
 
+string to spoof windows to:
 
 -s "string to spoof window title with"
 
-Options:
+Options
 
 ---
 
@@ -26,7 +29,7 @@ Options:
 -x | randomize the window title of the tool
 
 
-Examples:
+Examples
 
 ---
 Randomize the tool's window, search **visible-only** windows associated with the PIDs: **1390, 101 and 203** and replace them with **123**
